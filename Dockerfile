@@ -19,7 +19,7 @@ FROM mcr.microsoft.com/windows/servercore/iis AS runtime
 WORKDIR c:/temp
 
 # Preparation installations files from storage account
-# ADD https://saathfrshareddev.blob.core.windows.net/crystalReport-docker/INSTALL.zip c:/temp/INSTALL.zip
+# ADD https://XXXXXXXXXXXXXXXXXXX/crystalReport-docker/INSTALL.zip c:/temp/INSTALL.zip
 # RUN unzip INSTALL.zip
 
 # Preparation installations files from repo Git
